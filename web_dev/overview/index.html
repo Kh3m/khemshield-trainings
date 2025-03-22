@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title> My First Website </title>
+
+        <style>
+            /* selector {
+                property-name: value
+            } */
+
+            p {
+                color: brown;
+            }
+            
+        </style>
+
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+        <h1 style="background-color: red;">Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4> Heading 4</h4>
+        <h5> Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>This is paragraph</p>
+
+        <!-- Adds image to the website -->
+        <img  id="dog-image" src="dog.jpg" alt="My Dog Image" width="300px"> 
+        <button id="move">Move Me</button>
+
+        <br>
+        <img src="https://t4.ftcdn.net/jpg/05/66/20/17/360_F_566201763_6oRaw7LUU2XD0Oog6QRkZ4jBfpb7BX3y.jpg" alt="Love Image">
+
+        <a href="second.html">Second Page</a>
+
+        <!-- Inline Style -->
+        <h1 style="font-size: 36px; color: aquamarine; background-color: black;">Love to Code Very Well </h1>
+        
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, culpa error, nobis adipisci illum explicabo soluta optio quaerat laborum sint officia odio. Nulla placeat provident nesciunt molestiae amet laudantium beatae!
+        </p>
+
+        <button onclick="alert('Welcome to Javascript!')">Click Me!</button>
+
+        <script>
+            document.querySelector("p").addEventListener("click", () => {
+                alert("Hey you are here!")
+            })
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>

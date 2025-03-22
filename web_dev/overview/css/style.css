@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#move {
+    background-color: red;
+    color: white;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    display: block;
+}
+
+.move-right {
+    transform: translateX(400px);
+}
+
+#dog-image {
+    transition: all 3s;
+}
