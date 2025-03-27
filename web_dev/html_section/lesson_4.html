@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth Lesson</title>
+
+    <style>
+        table, tr, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- 
+        1. Tables
+        2. Lists
+        3. Block vs Inline
+        4. Forms
+    -->
+
+    <h1>Lesson Four</h1>
+<p>This lesson signifiea our fourth class on web development</p>
+    <h2>Table for list of Foods</h2>
+    <table>
+        <thead>
+            <th>
+                <tr>
+                    <td >Name</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                </tr>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rice</td>
+                <td>77,900</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Beans</td>
+                <td>13,489</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot></tfoot> -->
+    </table>
+
+    <h2>List types</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2>Block vs Inline</h2>
+    <p>Any element that takes up the entire <mark>hey</mark> screen is <span style="color: red;">block</span> level</p>
+    <div style=" background-color: aquamarine;">div - Block Level</div>
+    <p style=" background-color: hsl(30deg, 122%, 55% );">p - Block Level</p>
+    
+    <span style=" background-color: hsl(130deg, 122%, 55% );">span - Inline </span>
+
+    <h2>Form</h2>
+
+    <form style="margin-bottom: 132px;">
+       <input type="text" >
+       <br>
+       <input type="number">
+       <br>
+        <input type="date" >
+        <br>
+        <input type="datetime">
+        <br>
+        <input type="datetime-local" >
+        <br>
+        <input type="email">
+        <br>
+        <input type="color">
+        <br>
+        Do you want to receive email? <input type="checkbox">
+        
+
+        <div>
+            <input name="gender" type="radio"> Male
+            <input name="gender" type="radio"> Female
+        </div>
+        <br>
+        <select>
+            <option value="rice">Rice</option>
+            <option value="beans">Beans</option>
+            <option value="yam">Yam</option>
+        </select>
+
+       <!-- <input type="submit" value="Submit"> -->
+        <button>Submit</button>
+    </form>
+</body>
+</html>
