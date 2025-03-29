@@ -1,0 +1,38 @@
+
+/* Three basic selectors */
+
+/* 
+    Tag selectors
+    Class selectors
+    Id selectors
+    Attributes selectors
+    Decendant Selectors
+    Pseudo Selectors
+*/
+
+/* 
+Syntax:
+
+selector {
+    property-1: value; 
+    property-2: value; 
+    ...
+} */
+
+h1 {
+    color: red;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.love {
+    color: blue;
+}
+
+#jagaban {
+    color: tomato;
+}
+
+input[type="text"] {
+    border: 3px solid green;
+}
