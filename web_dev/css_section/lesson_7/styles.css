@@ -1,0 +1,58 @@
+.first-tb {
+    overflow-x: auto;
+}
+
+.first-tb table {
+    width: 3000px;
+   
+}
+
+.first-tb table, .first-tb td {
+    border-bottom: 1px solid #f0e8e8;
+    border-collapse: collapse;
+}
+
+.first-tb th {
+    background-color: #37de37;
+    padding: 16px;
+    text-align: left;
+}
+
+.first-tb td {
+    padding: 16px;
+}
+
+.first-tb tr:nth-child(3) {
+    background: #f2f2f2;;
+}
+
+.first-tb .state-td {
+    color: #ef9733;
+    font-weight: bold;
+}
+
+.second-table table,
+.second-table td,
+.second-table th  {
+    border: 1px solid;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: blue;
+    padding: 16px 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sticky {
+    background-color: #37de37;
+    padding: 16px;
+    margin: 64px 0;
+    position: sticky;
+    top: 100px;
+}
