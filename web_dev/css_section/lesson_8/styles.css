@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-box {
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  /* font-size: 12px; */
+}
+
+.form-box form > div {
+  margin: 6px 0; /* trbl */
+}
+
+form input,
+form label,
+form select,
+form button {
+  width: 100%;
+  display: block;
+}
+
+form button {
+  background-color: #30ce30;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
