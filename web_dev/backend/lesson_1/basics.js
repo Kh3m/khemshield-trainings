@@ -1,20 +1,47 @@
-// var, let, const
-let age = 578;
+/**
+ * Variables, ==, <=, <, > !
+ * Variables are containers for storing values
+ * a variable has a type, name, and value
+ *
+ * We can define variable using var, let, and const
+ * = Assignment operator
+ */
 
-const name = "Khem";
+var username = "Khem";
+let age = 45; // number => Integer, Double (Float)
+age = 5;
 
-// name = "Ahmed"
-age = 25;
+const isActive = true; // false
 
-console.log("My name is: ", name, "and my age is: ", age);
+// isActive can not be re-assinged
+// isActive = false;
 
-//  Arithmetic Operators +, -, *, /, %
+console.log("Username: ", username, " Age: ", age, "isActive: ", isActive);
 
-const num1 = 45;
-const num2 = 165;
+/**
+ * Operators
+ * --------
+ * Arithmetic operators +, -, /, *, %
+ * Boolean Operators !=
+ * Logical Operators and &&, or ||,
+ * */
 
-const sum = num1 + num2;
+const a = 89;
+const b = 1;
 
-console.log(`The sum of ${num1} + ${num2} = ${sum}`);
-console.log("The sum of ", num1 + " + ", num2, " = ", sum);
-console.log("The sum of " + num1 + " + " + num2 + " = " + sum);
+const sum = a + b;
+const division = a / 2;
+const mod = a % 2; // It divides the number and returns the reminder
+
+console.log("Sum: ", sum);
+console.log("Division: ", division);
+console.log("Mod: ", mod);
+
+console.log(a == b);
+console.log(a > b);
+console.log(a < b);
+console.log(a != b);
+
+console.log("Logical Operations");
+console.log(a == b && a > 23);
+console.log(a == b || a > 23);
