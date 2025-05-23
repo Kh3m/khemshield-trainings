@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genzees | <%= title %></title>
+  </head>
+  <body>
+    <h2>Users</h2>
+    <ul>
+      <% for (let i = 0; i < users.length; i++) { %>
+      <li>
+        <span><%= users[i].name %></span>
+        <form action="/users/<%=users[i].id%>?_method=DELETE" method="post">
+          <button style="color: red">Delete</button>
+        </form>
+      </li>
+      <% } %>
+    </ul>
+
+    <form action="/users" method="post">
+      <input type="text" name="name" placeholder="Enter your name" />
+      <button>Submits</button>
+    </form>
+  </body>
+</html>
