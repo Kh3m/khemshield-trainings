@@ -1,0 +1,21 @@
+{
+  "name": "online-reg",
+  "version": "1.0.0",
+  "description": "Online registration portal for students",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "online",
+    "registeration",
+    "portal",
+    "students",
+    "dahsboard"
+  ],
+  "author": "G and B",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
